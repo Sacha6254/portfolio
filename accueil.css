@@ -81,19 +81,34 @@ footer {
     color: black;
 }
 
-.close-button {
+.close-button1 {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close-button:hover,
-.close-button:focus {
+.close-button1:hover,
+.close-button1:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
+
+.close-button2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button2:hover,
+.close-button2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 #ballon {
     position: absolute;
@@ -103,21 +118,25 @@ footer {
 }
 
 #but1 {
+    margin-top: 150px;
     margin-left: 150px;
     width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
 }
 #but2 {
+    margin-top: 150px;
     margin-left: 150px;
     width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
 }
 #but3 {
+    margin-top: 150px;
     margin-left: 150px;
     width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
 }
 #but4 {
+    margin-top: 150px;
     margin-left: 150px;
     width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
