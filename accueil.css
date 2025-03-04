@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     animation: gradientAnimation 15s ease infinite;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
+    background-size: 2000% 2000%;
     color: #fff;
     overflow: hidden; /* Empêche le défilement dû au ballon */
 }
