@@ -1,1 +1,43 @@
-caca
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="accueil.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon Portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Bonjour ! Je suis un développeur passionné par la création de sites web.</p>
+        <div id="personal-info-box" class="clickable-box">
+            Cliquez ici pour voir mes informations personnelles
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Boîte modale pour les informations personnelles -->
+    <div id="personal-info-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Mes Informations Personnelles</h2>
+            <p>Nom : Goulon Sacha</p>
+            <p>Email : sachagoulon@gmail.com</p>
+        </div>
+    </div>
+
+    <!-- images -->
+    <img id="ballon" src="./image/ballon.png" alt="Ballon de foot">
+    <img class="clickable-but" id="but" src="./image/but.png" alt="But de foot">
+
+    <script src="script_infos_perso.js"></script>
+    <script src="script_souris.js"></script>
+</body>
+</html>
+
