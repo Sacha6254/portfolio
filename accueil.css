@@ -103,14 +103,22 @@ footer {
 }
 
 #but1 {
-    width: 300px;
+    margin-left: 150px;
+    width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
 }
 #but2 {
+    margin-left: 150px;
     width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
 }
 #but3 {
+    margin-left: 150px;
+    width: 150px;
+    pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
+}
+#but4 {
+    margin-left: 150px;
     width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
 }
