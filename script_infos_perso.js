@@ -1,4 +1,4 @@
-document.getElementById('but').addEventListener('click', function() {
+document.getElementById('but1').addEventListener('click', function() {
     document.getElementById('personal-info-modal').style.display = 'block';
 });
 
