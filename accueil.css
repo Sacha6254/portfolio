@@ -104,7 +104,7 @@ footer {
 
 #but {
     width: 150px;
-    pointer-events: none; /* Permet à la souris de passer à travers */
+    pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
 }
 @keyframes rotateBall {
     from {
