@@ -175,7 +175,7 @@ footer {
     color: white;
     font-size: 25px;
     display: flex;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #confetti_Gif1 {
@@ -190,10 +190,10 @@ footer {
 
 #confetti_Gif3 {
     position: absolute;
-    margin-left: 300px;
+    margin-left: 1000px;
 }
 
 #confetti_Gif4 {
     position: absolute;
-    margin-left: 400px;
+    margin-left: 5000px;
 }

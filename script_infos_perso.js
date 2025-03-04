@@ -18,8 +18,11 @@ window.addEventListener('click', function(event) {
 
 
 document.getElementById('but2').addEventListener('click', function() {
-    document.getElementById('cv-modal').style.display = 'block';
+    setTimeout(function() {
+        document.getElementById('cv-modal').style.display = 'block';
+    }, 2700); // 2700 millisecondes = 2,7 secondes
 });
+
 
 document.getElementsByClassName('close-button2')[0].addEventListener('click', function() {
     document.getElementById('cv-modal').style.display = 'none';
@@ -37,8 +40,11 @@ window.addEventListener('click', function(event) {
 
 
 document.getElementById('but3').addEventListener('click', function() {
-    document.getElementById('projet-modal').style.display = 'block';
+    setTimeout(function() {
+        document.getElementById('projet-modal').style.display = 'block';
+    }, 2700); // 2700 millisecondes = 2,7 secondes
 });
+
 
 document.getElementsByClassName('close-button3')[0].addEventListener('click', function() {
     document.getElementById('projet-modal').style.display = 'none';
@@ -58,8 +64,11 @@ window.addEventListener('click', function(event) {
 
 
 document.getElementById('but4').addEventListener('click', function() {
-    document.getElementById('contact-modal').style.display = 'block';
+    setTimeout(function() {
+        document.getElementById('contact-modal').style.display = 'block';
+    }, 2700); // 2700 millisecondes = 2,7 secondes
 });
+
 
 document.getElementsByClassName('close-button4')[0].addEventListener('click', function() {
     document.getElementById('contact-modal').style.display = 'none';
@@ -71,6 +80,9 @@ window.addEventListener('click', function(event) {
         modal.style.display = 'none';
     }
 });
+
+
+// Gestion des GIFs de confettis
 
 document.getElementById('but1').addEventListener('click', function() {
     var gif = document.getElementById('confetti_Gif1');
