@@ -190,10 +190,16 @@ footer {
 
 #confetti_Gif3 {
     position: absolute;
-    margin-left: 850px;
+    margin-left: 775px;
 }
 
 #confetti_Gif4 {
     position: absolute;
-    margin-left: 1000px;
+    margin-left: 1125px;
+}
+#img_moi{
+    margin-left: 150px;
+    width: 100px;
+    height: 95px;
+    border-radius: 50px;
 }
