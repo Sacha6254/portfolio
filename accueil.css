@@ -224,6 +224,16 @@ footer {
     border-radius: 50px;
 }
 
+#img_projet1{
+    width: 200px;
+    height: 200px;
+}
+#img_projet2{
+    width: 400px;
+    height: 200px;
+}
+
+
 /* Style pour le contenu déroulant */
 .dropdown1 {
     position: relative;
