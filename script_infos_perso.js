@@ -138,3 +138,18 @@ document.querySelector('.dropdown-btn1').onclick = function() {
 document.querySelector('.dropdown-btn2').onclick = function() {
     document.querySelector('.dropdown-content2').style.display = document.querySelector('.dropdown-content2').style.display === 'block' ? 'none' : 'block';
 };
+
+// Afficher/masquer le contenu déroulant
+document.querySelector('.dropdown-btn3').onclick = function() {
+    document.querySelector('.dropdown-content3').style.display = document.querySelector('.dropdown-content3').style.display === 'block' ? 'none' : 'block';
+};
+
+// Afficher/masquer le contenu déroulant
+document.querySelector('.dropdown-btn4').onclick = function() {
+    document.querySelector('.dropdown-content4').style.display = document.querySelector('.dropdown-content4').style.display === 'block' ? 'none' : 'block';
+};
+
+// Afficher/masquer le contenu déroulant
+document.querySelector('.dropdown-btn5').onclick = function() {
+    document.querySelector('.dropdown-content5').style.display = document.querySelector('.dropdown-content5').style.display === 'block' ? 'none' : 'block';
+};
