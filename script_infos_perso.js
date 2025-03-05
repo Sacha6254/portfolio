@@ -126,3 +126,9 @@ document.getElementById('but4').addEventListener('click', function() {
         gif.style.display = 'none';
     }, 2500); // 2500 millisecondes = 2,5 secondes
 });
+
+document.getElementById('but1').addEventListener('click', function() {
+    setTimeout(function() {
+        document.getElementById('profil-modal').style.display = 'block';
+    }, 2700); // 2700 millisecondes = 2,7 secondes
+});
