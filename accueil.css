@@ -181,21 +181,25 @@ footer {
 
 #confetti_Gif1 {
     position: absolute;
+    margin-top: 100px;
     margin-left: 115px;
 }
 
 #confetti_Gif2 {
     position: absolute;
+    margin-top: 100px;
     margin-left: 450px;
 }
 
 #confetti_Gif3 {
     position: absolute;
+    margin-top: 100px;
     margin-left: 775px;
 }
 
 #confetti_Gif4 {
     position: absolute;
+    margin-top: 100px;
     margin-left: 1125px;
 }
 #img_moi{
@@ -210,13 +214,19 @@ footer {
     border-radius: 50px;
 }
 
-#img_mail{
+#img_contact{
     margin-top: 10px;
     margin-left: 17px;
     width: 40px;
     height: 40px;
     border-radius: 50px;
 }
+
+#texte_git{
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
 
 #img_competence{
     width: 40px;
