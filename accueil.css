@@ -354,6 +354,9 @@ footer {
     header {
         font-size: 100px;
     }
+    footer {
+        font-size: 300px;
+    }
 
     .dropdown-content {
         font-size: 75px;
