@@ -352,12 +352,7 @@ footer {
 /* Media Query pour les téléphones */
 @media (max-width: 600px) {
 
-    .dropdown-btn {
-        font-size: 14px;
-        padding: 12px;
-    }
-
-    .dropdown-content p {
+    .dropdown-content {
         font-size: 75px;
     }
 }
