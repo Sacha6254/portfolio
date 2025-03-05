@@ -357,15 +357,17 @@ footer {
         
     }
     #but2 {
-        margin-left: 50px;
+        margin-left: 150px;
         width: 350px;
     }
     #but3 {
+        margin-top: 150px;
         margin-left: 100px;
         width: 350px;
     }
-    #but4 {   
-        margin-left: 50px;
+    #but4 {  
+        margin-top: 150px; 
+        margin-left: 150px;
         width: 350px;
     } 
 }
