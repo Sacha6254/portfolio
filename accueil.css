@@ -350,7 +350,7 @@ footer {
     content: '▼';
 }
 /* Media Query pour les téléphones */
-@media (max-width: 600px) {
+@media (max-width: 1080px) {
     header {
         font-size: 100px;
     }
