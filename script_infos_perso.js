@@ -130,6 +130,11 @@ document.getElementById('but4').addEventListener('click', function() {
 
 
 // Afficher/masquer le contenu déroulant
-document.querySelector('.dropdown-btn').onclick = function() {
-    document.querySelector('.dropdown-content').style.display = document.querySelector('.dropdown-content').style.display === 'block' ? 'none' : 'block';
+document.querySelector('.dropdown-btn1').onclick = function() {
+    document.querySelector('.dropdown-content1').style.display = document.querySelector('.dropdown-content1').style.display === 'block' ? 'none' : 'block';
+};
+
+// Afficher/masquer le contenu déroulant
+document.querySelector('.dropdown-btn2').onclick = function() {
+    document.querySelector('.dropdown-content2').style.display = document.querySelector('.dropdown-content2').style.display === 'block' ? 'none' : 'block';
 };
