@@ -351,14 +351,21 @@ footer {
 }
 /* Media Query pour les téléphones */
 @media (max-width: 1080px) {
-    header {
-        font-size: 100px;
+    #but1 {
+        margin-left: 150px;
+        width: 400px;
+        
     }
-    footer {
-        font-size: 300px;
+    #but2 {
+        margin-left: 150px;
+        width: 400px;
     }
-
-    .dropdown-content {
-        font-size: 75px;
+    #but3 {
+        margin-left: 150px;
+        width: 400px;
     }
+    #but4 {   
+        margin-left: 150px;
+        width: 400px;
+    } 
 }
