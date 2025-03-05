@@ -351,6 +351,9 @@ footer {
 }
 /* Media Query pour les téléphones */
 @media (max-width: 600px) {
+    header {
+        font-size: 100px;
+    }
 
     .dropdown-content {
         font-size: 75px;
