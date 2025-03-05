@@ -353,19 +353,19 @@ footer {
 @media (max-width: 1080px) {
     #but1 {
         margin-left: 100px;
-        width: 400px;
+        width: 350px;
         
     }
     #but2 {
         margin-left: 50px;
-        width: 400px;
+        width: 350px;
     }
     #but3 {
         margin-left: 150px;
-        width: 400px;
+        width: 350px;
     }
     #but4 {   
         margin-left: 50px;
-        width: 400px;
+        width: 350px;
     } 
 }
