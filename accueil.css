@@ -382,5 +382,10 @@ footer {
         margin-left: 200px;
         font-size: 50px;
     }
+    #menu{
+        position : absolute;
+        display: block;
+        margin-top: 150px;
+    }
 
 }
