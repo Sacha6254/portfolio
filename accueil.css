@@ -352,12 +352,12 @@ footer {
 /* Media Query pour les téléphones */
 @media (max-width: 1080px) {
     #but1 {
-        margin-left: 150px;
+        margin-left: 100px;
         width: 400px;
         
     }
     #but2 {
-        margin-left: 150px;
+        margin-left: 50px;
         width: 400px;
     }
     #but3 {
@@ -365,7 +365,7 @@ footer {
         width: 400px;
     }
     #but4 {   
-        margin-left: 150px;
+        margin-left: 50px;
         width: 400px;
     } 
 }
