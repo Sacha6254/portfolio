@@ -15,10 +15,7 @@ window.addEventListener('click', function(event) {
     }
 });
 
-// Afficher/masquer le contenu déroulant
-document.getElementById('dropdown-btn').addEventListener('click', function() {
-        document.getElementById('dropdown-content').style.display = 'block';
-});
+
 
 
 
