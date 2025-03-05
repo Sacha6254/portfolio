@@ -238,19 +238,17 @@ footer {
 }
 
 .dropdown-btn {
-    background-color: #4CAF50;
+    pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
+    border-radius: 50px;
+    background-color: #aaa;
     color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+    margin-left: 20px;
 }
 
 .dropdown-btn:hover {
-    background-color: #3e8e41;
+    background-color: #000000;
 }
 
 .dropdown-btn::after {
     content: '▼';
-    margin-left: 8px;
 }

@@ -127,8 +127,9 @@ document.getElementById('but4').addEventListener('click', function() {
     }, 2500); // 2500 millisecondes = 2,5 secondes
 });
 
-document.getElementById('but1').addEventListener('click', function() {
-    setTimeout(function() {
-        document.getElementById('profil-modal').style.display = 'block';
-    }, 2700); // 2700 millisecondes = 2,7 secondes
-});
+
+
+// Afficher/masquer le contenu déroulant
+document.querySelector('.dropdown-btn').onclick = function() {
+    document.querySelector('.dropdown-content').style.display = document.querySelector('.dropdown-content').style.display === 'block' ? 'none' : 'block';
+};
