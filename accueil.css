@@ -352,13 +352,13 @@ footer {
 /* Media Query pour les téléphones */
 @media (max-width: 1080px) {
     #but1 {
-        margin-top: 400px;
+        margin-top: 300px;
         margin-left: 100px;
         width: 350px;
         
     }
     #but2 {
-        margin-top: 400px;
+        margin-top: 300px;
         margin-left: 100px;
         width: 350px;
     }
@@ -374,13 +374,13 @@ footer {
     } 
 
     #projet {
-        margin-top: 250px;
+        margin-top: 300px;
         margin-left: 100px;
         font-size: 50px;
     }
 
     #contact {
-        margin-top: 250px;
+        margin-top: 300px;
         margin-left: 500px;
         font-size: 50px;
     }
@@ -395,6 +395,30 @@ footer {
         position : absolute;
         display: block;
         margin-top: 150px;
+    }
+
+    #confetti_Gif1 {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 115px;
+    }
+    
+    #confetti_Gif2 {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 450px;
+    }
+    
+    #confetti_Gif3 {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 775px;
+    }
+    
+    #confetti_Gif4 {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 1125px;
     }
 
 }
