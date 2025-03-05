@@ -315,12 +315,12 @@ footer {
     content: '▼';
 }
 
-.dropdown3 {
+#dropdown {
     position: relative;
     display: inline-block;
 }
 
-.dropdown-content3 {
+#dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -330,11 +330,11 @@ footer {
     z-index: 1;
 }
 
-.dropdown-content3 p {
+#dropdown-content p {
     padding-left: 12px;
 }
 
-.dropdown-btn3 {
+#dropdown-btn {
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
     border-radius: 50px;
     background-color: #aaa;
@@ -342,80 +342,22 @@ footer {
     margin-left: 20px;
 }
 
-.dropdown-btn3:hover {
+#dropdown-btn:hover {
     background-color: #000000;
 }
 
-.dropdown-btn3::after {
+#dropdown-btn::after {
     content: '▼';
 }
+/* Media Query pour les téléphones */
+@media (max-width: 600px) {
 
-.dropdown4 {
-    position: relative;
-    display: inline-block;
-}
+    .dropdown-btn {
+        font-size: 14px;
+        padding: 12px;
+    }
 
-.dropdown-content4 {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    width: 400px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content4 p {
-    padding-left: 12px;
-}
-
-.dropdown-btn4 {
-    pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
-    border-radius: 50px;
-    background-color: #aaa;
-    color: white;
-    margin-left: 20px;
-}
-
-.dropdown-btn4:hover {
-    background-color: #000000;
-}
-
-.dropdown-btn4::after {
-    content: '▼';
-}
-
-.dropdown5 {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content5 {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    width: 400px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content5 p {
-    padding-left: 12px;
-}
-
-.dropdown-btn5 {
-    pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
-    border-radius: 50px;
-    background-color: #aaa;
-    color: white;
-    margin-left: 20px;
-}
-
-.dropdown-btn5:hover {
-    background-color: #000000;
-}
-
-.dropdown-btn5::after {
-    content: '▼';
+    .dropdown-content p {
+        font-size: 30px;
+    }
 }
