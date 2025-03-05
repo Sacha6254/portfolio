@@ -352,11 +352,13 @@ footer {
 /* Media Query pour les téléphones */
 @media (max-width: 1080px) {
     #but1 {
+        margin-top: 50px;
         margin-left: 100px;
         width: 350px;
         
     }
     #but2 {
+        margin-top: 50px;
         margin-left: 100px;
         width: 350px;
     }
