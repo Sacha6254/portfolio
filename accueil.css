@@ -32,7 +32,8 @@ header {
 }
 
 section {
-    padding: 2rem;
+    position: relative;
+    z-index: 1; /* Assure que la section est en dessous des boutons */
 }
 
 
@@ -64,7 +65,6 @@ footer {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
@@ -148,21 +148,33 @@ footer {
     margin-left: 150px;
     width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
+    position: relative;
+    z-index: 2; /* Assure que les boutons sont au-dessus de la section */
+    cursor: pointer;
 }
 #but2 {
     margin-left: 150px;
     width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
+    position: relative;
+    z-index: 2; /* Assure que les boutons sont au-dessus de la section */
+    cursor: pointer;
 }
 #but3 {
     margin-left: 150px;
     width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
+    position: relative;
+    z-index: 2; /* Assure que les boutons sont au-dessus de la section */
+    cursor: pointer;
 }
 #but4 {   
     margin-left: 150px;
     width: 150px;
     pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
+    position: relative;
+    z-index: 2; /* Assure que les boutons sont au-dessus de la section */
+    cursor: pointer;
 }
 @keyframes rotateBall {
     from {
@@ -257,7 +269,6 @@ footer {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
 .dropdown-content1 p {
@@ -292,7 +303,6 @@ footer {
     min-width: 160px;
     width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
 .dropdown-content2 p {
@@ -327,7 +337,6 @@ footer {
     min-width: 160px;
     width: 400px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
 #dropdown-content p {
@@ -362,14 +371,12 @@ footer {
         margin-top: 300px;
         margin-left: 100px;
         width: 350px;
-        z-index: top;
         
     }
     #but2 {
         margin-top: 300px;
         margin-left: 100px;
         width: 350px;    
-        z-index: top;
     }
     #but3 {
         margin-top: 250px;
