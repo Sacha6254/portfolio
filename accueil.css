@@ -416,26 +416,32 @@ footer {
 
     #confetti_Gif1 {
         position: absolute;
-        margin-top: 150px;
-        margin-left: 115px;
+        margin-left: 100px;
+        width: 400px;
+        height: 250px;
     }
     
     #confetti_Gif2 {
         position: absolute;
-        margin-top: 150px;
-        margin-left: 450px;
+        margin-left: 575px;
+        width: 400px;
+        height: 250px;
     }
     
     #confetti_Gif3 {
         position: absolute;
         margin-top: 700px;
-        margin-left: 150px;
+        margin-left: 100px;
+        width: 400px;
+        height: 250px;
     }
     
     #confetti_Gif4 {
         position: absolute;
         margin-top: 700px;
-        margin-left: 650px;
+        margin-left: 575px;
+        width: 400px;
+        height: 250px;
     }
 
 }
