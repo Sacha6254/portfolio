@@ -351,6 +351,10 @@ footer {
 }
 /* Media Query pour les téléphones */
 @media (max-width: 1080px) {
+    #ballon {
+        width: 100px;
+    }
+    
     #but1 {
         margin-top: 300px;
         margin-left: 100px;
@@ -374,13 +378,13 @@ footer {
     } 
 
     #projet {
-        margin-top: 300px;
+        margin-top: 600px;
         margin-left: 100px;
         font-size: 50px;
     }
 
     #contact {
-        margin-top: 300px;
+        margin-top: 600px;
         margin-left: 500px;
         font-size: 50px;
     }
