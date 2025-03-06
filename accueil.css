@@ -371,7 +371,7 @@ footer {
 
 #dropdown-btn:hover {
     background-color: #000000;
-    z-index: 3;
+    z-index: 4;
 }
 
 #dropdown-btn::after {
