@@ -362,22 +362,26 @@ footer {
         margin-top: 300px;
         margin-left: 100px;
         width: 350px;
+        z-index: 1;
         
     }
     #but2 {
         margin-top: 300px;
         margin-left: 100px;
         width: 350px;
+        z-index: 1;
     }
     #but3 {
         margin-top: 250px;
         margin-left: 100px;
         width: 350px;
+        z-index: 1;
     }
     #but4 {  
         margin-top: 250px; 
         margin-left: 100px;
         width: 350px;
+        z-index: 1;
     } 
 
     #projet {
@@ -418,14 +422,14 @@ footer {
     
     #confetti_Gif3 {
         position: absolute;
-        margin-top: 400px;
-        margin-left: 115px;
+        margin-top: 600px;
+        margin-left: 140px;
     }
     
     #confetti_Gif4 {
         position: absolute;
-        margin-top: 400px;
-        margin-left: 450px;
+        margin-top: 600px;
+        margin-left: 650px;
     }
 
 }
