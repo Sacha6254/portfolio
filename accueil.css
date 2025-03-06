@@ -465,17 +465,12 @@ footer {
         width: 400px;
         height: 250px;
     }
+    .modal{
+        width: 1000px;
+    }
     .modal-content {
         font-size: 50px;
     }
-    .dropdown1 {
-        width: 1000px;
-    }
-    .dropdown2 {
-        width: 1000px;
-    }
-    .dropdown {
-        width: 1000px;
     }
     #dropdown-content {
         font-size: 50px;
