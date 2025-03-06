@@ -72,6 +72,7 @@ footer {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.7);
+    z-index: 4;
 }
 
 .modal-content {
@@ -84,6 +85,7 @@ footer {
     border-radius: 8px;
     position: relative;
     color: black;
+    z-index: 4;
 }
 .close-button1 {
     color: #aaa;
@@ -462,6 +464,12 @@ footer {
         margin-left: 575px;
         width: 400px;
         height: 250px;
+    }
+    .modal-content {
+        font-size: 50px;
+    }
+    #dropdown-content {
+        font-size: 50px;
     }
 
 }
