@@ -352,7 +352,7 @@ footer {
 /* Media Query pour les téléphones */
 @media (max-width: 1080px) {
     header {
-        font-size: 60px;
+        font-size: 40px;
     }
     #ballon {
         width: 100px;
@@ -381,13 +381,13 @@ footer {
     } 
 
     #projet {
-        margin-top: 600px;
+        margin-top: 500px;
         margin-left: 100px;
         font-size: 50px;
     }
 
     #contact {
-        margin-top: 600px;
+        margin-top: 500px;
         margin-left: 500px;
         font-size: 50px;
     }
