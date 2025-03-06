@@ -363,6 +363,7 @@ footer {
         margin-left: 100px;
         width: 350px;
         z-index: 2;
+        pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
         
     }
     #but2 {
@@ -370,18 +371,22 @@ footer {
         margin-left: 100px;
         width: 350px;
         z-index: 2;
+        pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
+
     }
     #but3 {
         margin-top: 250px;
         margin-left: 100px;
         width: 350px;
         z-index: 2;
+        pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
     }
     #but4 {  
         margin-top: 250px; 
         margin-left: 100px;
         width: 350px;
         z-index: 2;
+        pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
     } 
 
     #projet {
@@ -426,13 +431,13 @@ footer {
     
     #confetti_Gif3 {
         position: absolute;
-        margin-top: 600px;
-        margin-left: 140px;
+        margin-top: 700px;
+        margin-left: 150px;
     }
     
     #confetti_Gif4 {
         position: absolute;
-        margin-top: 600px;
+        margin-top: 700px;
         margin-left: 650px;
     }
 
