@@ -265,7 +265,7 @@ footer {
 .dropdown1 {
     position: relative;
     display: inline-block;
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown-content1 {
@@ -274,12 +274,12 @@ footer {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown-content1 p {
     padding-left: 12px;
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown-btn1 {
@@ -288,23 +288,23 @@ footer {
     background-color: #aaa;
     color: white;
     margin-left: 20px;
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown-btn1:hover {
     background-color: #000000;
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown-btn1::after {
     content: '▼';
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown2 {
     position: relative;
     display: inline-block;
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown-content2 {
@@ -314,12 +314,12 @@ footer {
     min-width: 160px;
     width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown-content2 p {
     padding-left: 12px;
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown-btn2 {
@@ -328,23 +328,23 @@ footer {
     background-color: #aaa;
     color: white;
     margin-left: 20px;
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown-btn2:hover {
     background-color: #000000;
-    z-index: 4;
+    z-index: 5;
 }
 
 .dropdown-btn2::after {
     content: '▼';
-    z-index: 4;
+    z-index: 5;
 }
 
 #dropdown {
     position: relative;
     display: inline-block;
-    z-index: 4;
+    z-index: 5;
 }
 
 #dropdown-content {
@@ -354,12 +354,12 @@ footer {
     min-width: 160px;
     width: 400px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 4;
+    z-index: 5;
 }
 
 #dropdown-content p {
     padding-left: 12px;
-    z-index: 4;
+    z-index: 5;
 }
 
 #dropdown-btn {
@@ -368,17 +368,17 @@ footer {
     background-color: #aaa;
     color: white;
     margin-left: 20px;
-    z-index: 4;
+    z-index: 5;
 }
 
 #dropdown-btn:hover {
     background-color: #000000;
-    z-index: 4;
+    z-index: 5;
 }
 
 #dropdown-btn::after {
     content: '▼';
-    z-index: 4;
+    z-index: 5;
 }
 /* Media Query pour les téléphones */
 @media (max-width: 1080px) {
@@ -469,11 +469,26 @@ footer {
         font-size: 50px;
     }
     #dropdown-content {
+        width: 300px;
         font-size: 50px;
     }
     #img_cv{
         width: 600px;
         height: 1000px;
+    }
+    #dropdown-content1 {
+        width: 1000px;
+        font-size: 50px;
+    }
+    #dropdown-content2 {
+        width: 300px;
+        font-size: 50px;
+    }
+    #img_moi{
+        margin-left: 150px;
+        width: 400px;
+        height: 395px;
+        border-radius: 50px;
     }
 
 }
