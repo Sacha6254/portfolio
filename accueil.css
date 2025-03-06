@@ -465,14 +465,12 @@ footer {
         width: 400px;
         height: 250px;
     }
-    .modal{
-        width: 2000px;
-    }
     .modal-content {
         font-size: 50px;
     }
     
     #dropdown-content {
+        max-width: 2000px;
         font-size: 50px;
     }
     #img_cv{
