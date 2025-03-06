@@ -471,5 +471,9 @@ footer {
     #dropdown-content {
         font-size: 50px;
     }
+    #img_cv{
+        width: 600px;
+        height: 1000px;
+    }
 
 }
