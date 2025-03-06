@@ -362,13 +362,14 @@ footer {
         margin-top: 300px;
         margin-left: 100px;
         width: 350px;
+        z-index: top;
         
     }
     #but2 {
         margin-top: 300px;
         margin-left: 100px;
-        width: 350px;
-
+        width: 350px;    
+        z-index: top;
     }
     #but3 {
         margin-top: 250px;
