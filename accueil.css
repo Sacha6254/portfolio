@@ -388,19 +388,23 @@ footer {
         margin-top: 500px;
         margin-left: 100px;
         font-size: 50px;
+        z-index: 2;
     }
 
     #contact {
         margin-top: 500px;
         margin-left: 500px;
         font-size: 50px;
+        z-index: 2;
     }
     #profil {
         font-size: 50px;
+        z-index: 2;
     }
 
     #cv {
         font-size: 50px;
+        z-index: 2;
     }
     #menu{
         position : absolute;
