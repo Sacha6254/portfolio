@@ -362,54 +362,42 @@ footer {
         margin-top: 300px;
         margin-left: 100px;
         width: 350px;
-        z-index: 2;
-        pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
         
     }
     #but2 {
         margin-top: 300px;
         margin-left: 100px;
         width: 350px;
-        z-index: 2;
-        pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
 
     }
     #but3 {
         margin-top: 250px;
         margin-left: 100px;
         width: 350px;
-        z-index: 2;
-        pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
     }
     #but4 {  
         margin-top: 250px; 
         margin-left: 100px;
         width: 350px;
-        z-index: 2;
-        pointer-events: auto; /* Permet à la souris de cliquer sur l'image */
     } 
 
     #projet {
         margin-top: 400px;
         margin-left: 100px;
         font-size: 50px;
-        z-index: 1;
     }
 
     #contact {
         margin-top: 400px;
         margin-left: 500px;
         font-size: 50px;
-        z-index: 1;
     }
     #profil {
         font-size: 50px;
-        z-index: 1;
     }
 
     #cv {
         font-size: 50px;
-        z-index: 1;
     }
     #menu{
         position : absolute;
